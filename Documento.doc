@@ -1,0 +1,63 @@
+Informe Proyecto Aplicacion de Guardias
+========================================
+-Introduccion
+El proposito de esta aplia1- Introducción
+
+1.1 Motivación
+    
+Este proyecto pensamos que puede ser un comienzo para ver a lo que nos enfrentaremos en la vida laboral, siendo así una gran oportunidad para adquirir conocimientos, dinámicas de grupo, de trabajo y mecanizar nuestra mentalidad. 
+
+Además el poder echar una mano a nuestro centro realizando un programa para facilitar a los profesores es algo que nos entusiasma ya que podemos dejar nuestra huella habiendo sido el primer grado de informática realizado en el Ies Rodanas.
+
+Nuestra principal motivación es la de poder crear una herramienta útil para el instituto, a la vez que nos formamos y ponemos en práctica los conocimientos que hemos y vamos adquiriendo. 
+
+Se va a desarrollar un software que permita al profesorado poder visualizar de manera sencilla las guardias que tienen a cada momento. Las tablas de excel van a ser sustituidas por una base de datos relacional, a la que podremos acceder y manipular desde el software que se va a desarrollar.
+
+
+1.2  Necesidades
+ 
+Los horarios de guardias tienen muchos déficits y es normal que haya un desorden en los profesores, podemos ayudar a reorganizarlos y crear un sistema en el que esté todo de manera más accesible y se resuelvan los conflictos para que este todo de manera más clara y concisa.
+En estos momentos se elaboran tablas en Excel, tienen un calendario semanal donde en cada día y hora van introduciendo los profesores que tienen guardia y otros que están “libres” para poder contar con ellos de forma excepcional.
+Un horario por profesor.
+En el programa se debería poder llevar un control de faltas de profesorado + justificantes.
+Y poder sacar informes.
+Donde se debería poder ver esta aplicación:
+en la sala de profesores, consulta y asignación
+en conserjería, solo consulta
+jefaturas, acceso ilimitado.
+
+2.1 Funcionalidades
+
+Este software permitirá importar excels con los horarios, que también podrán ser introducidos manualmente. Se contempla también que haya profesores libres de los cuales se pueda disponer en caso de que las guardias no se cubran y sea necesario.
+La base de datos se encontrará alojada en un servidor local, y se podrá acceder al software tanto desde la sala de profesores como desde los diferentes equipos de jefes de estudios, teniendo estos últimos la capacidad de editar y manipular los datos mediante un panel de administración, mientras que el profesorado sólo podrá visualizar estos datos.
+Tambien esta aplicacion permitira llevar un seguimiento de las faltas de los profesores y crear un informe de estos datos
+
+2.2 Solucion tecnica
+
+-Control de versiones
+Para el control de versiones del proyecto utilizaremos Git y como plataformade almacenamiento del codigo sera GITHUB
+
+-Lenguaje de programacion
+Utilizaremos Java como principal lenguaje de programacion de la aplicacion, el cual desarrollaremos con el IDE NetBeans.
+
+-Base de datos
+Para el almacenamiento de los datos utilizaremos una base de datos relacional en MySql 
+
+-Interfaz
+Mediante el uso de el modulo Java Swing realizaremos la interfaz grafica
+
+-Manual
+En el manual de instrucciones se incluiran las indicaciones de uso de la aplicacion y se entregara al administador
+
+
+
+
+
+
+
+
+
+
+
+
+
